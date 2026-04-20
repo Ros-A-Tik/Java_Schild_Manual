@@ -62,5 +62,29 @@ public class Jaca_LIBRARY_STRING_StringBuffer {
             }
         }
 
+
+//insert(int, str)
+        int ins = str_Buf.indexOf("Buf");
+        str_Buf.insert(ins, "---Hell-ow---");
+        System.out.println(str_Buf);
+
+//      replace(int start, int end, String str): Заменяет подстроку на другую.
+        int rep = str_Buf.indexOf("---Hell-ow---");
+        str_Buf.replace(9, 10, "Buf");
+        System.out.println(str_Buf);
+
+//        reverse(): Переворачивает последовательность символов.
+        System.out.println(str_Buf.reverse());
+
+
+//                Методы для получения информации
+//        length(): Возвращает текущую длину строки (количество символов).
+//        capacity(): Возвращает размер выделенного буфера.
+//        charAt(int index): Возвращает символ по индексу.
+//        Дополнительные полезные методы
+//        ensureCapacity(int minimumCapacity): Гарантирует, что буфер вместит определенное количество символов.
+//                setLength(int newLength): Устанавливает новую длину строки, обрезая или дополняя ее.
+//                getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin): Копирует часть строки в массив символов.
+
     }
 }
