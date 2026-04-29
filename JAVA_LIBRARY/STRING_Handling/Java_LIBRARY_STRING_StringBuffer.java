@@ -1,6 +1,6 @@
 package JAVA_LIBRARY.STRING_Handling;
 
-public class Jaca_LIBRARY_STRING_StringBuffer {
+public class Java_LIBRARY_STRING_StringBuffer {
 
     public static String str_00 = "String";
     public static String str_01 = "Buffer";
